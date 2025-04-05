@@ -11,14 +11,14 @@ A BitTorrent client built in Go that enables efficient file downloads through th
 ## Install
 
 ```sh
-go get github.com/ypratik817/PeerFLow
+go install github.com/ypratik817/PeerFLow@latest
 ```
 
 ## Usage
 Try downloading [Debian](https://cdimage.debian.org/debian-cd/current/amd64/bt-cd/#indexlist)!
 
 ```sh
-torrent-client debian-10.2.0-amd64-netinst.iso.torrent debian.iso
+peerflow debian-10.2.0-amd64-netinst.iso.torrent debian.iso
 ```
 
 
